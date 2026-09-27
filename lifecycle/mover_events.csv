@@ -1,0 +1,3 @@
+event_id,identity_id,name,transfer_date,previous_department,new_department,previous_role,new_role,target_application_add,target_application_remove,deprovision_status,notes
+MVR-2026-001,USR-1008,Elena Rostova,2026-07-01,Finance,Customer Operations,ROLE-FIN-ANALYST,ROLE-OPS-SPECIALIST,APP-OPS,APP-FIN,Failed_Unrevoked,Operations access provisioned via REQ-1005; Service Desk failed to deprovision APP-FIN write access (Finding IAM-02)
+MVR-2026-002,USR-1004,Tom Bradley,2024-06-15,Customer Operations,IT/Security,ROLE-OPS-SPECIALIST,ROLE-IT-ADMIN,APP-IDP,APP-OPS,Completed,Clean transfer; legacy customer operations access revoked upon promotion

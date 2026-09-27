@@ -1,0 +1,5 @@
+event_id,identity_id,name,department,job_title,manager,event_date,assigned_role,baseline_applications,approval_reference,fulfillment_status
+JRN-2026-001,USR-1010,Priya Sharma,Engineering,Frontend Developer,Maya Lin,2024-02-01,ROLE-DEV-ENGINEER,APP-DEV,APPR-HR-401,Fulfilled
+JRN-2026-002,CTR-2001,Ananya Roy,Engineering,DevOps Specialist,Rachel Adams,2026-05-01,ROLE-DEV-CONTRACTOR,APP-DEV,APPR-ENG-512,Fulfilled
+JRN-2026-003,CTR-2002,Liam Gallagher,Engineering,Data Integration Contractor,Maya Lin,2026-02-01,ROLE-DEV-CONTRACTOR,APP-DEV,APPR-ENG-490,Fulfilled
+JRN-2026-004,USR-1008,Elena Rostova,Finance,Financial Reporting Specialist,David Chen,2023-04-01,ROLE-FIN-ANALYST,APP-FIN,APPR-FIN-203,Fulfilled

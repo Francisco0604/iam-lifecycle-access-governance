@@ -1,0 +1,16 @@
+event_id,timestamp,event_type,actor_identity,target_identity,target_system,action_details,ip_address,status,alert_flag
+EVT-2026-8001,2026-07-02T09:14:22Z,role_changed,adm_tbradley,USR-1008,APP-OPS,Assigned ROLE-OPS-SPECIALIST following department transfer,10.14.2.110,Success,False
+EVT-2026-8002,2026-07-11T14:30:05Z,access_granted,adm_tbradley,USR-1003,APP-FIN,Granted ROLE-FIN-INITIATOR per approved request REQ-2026-1002,10.14.2.110,Success,True
+EVT-2026-8003,2026-07-31T17:00:10Z,account_disabled,adm_tbradley,USR-1013,APP-IDP,Deprovisioned identity and disabled accounts for departing employee Robert Hayes,10.14.2.110,Success,False
+EVT-2026-8004,2026-08-15T18:05:00Z,role_changed,sec_awong,USR-1006,APP-DEV-STAGING,Granted temporary elevated staging DB read access per exception EXC-2026-001,10.14.1.5,Success,False
+EVT-2026-8005,2026-09-12T02:15:30Z,emergency_access_used,USR-1006,USR-1006,APP-DEV-STAGING,Checked out break-glass DB credential for incident INC-4491,192.168.10.45,Success,True
+EVT-2026-8006,2026-09-12T06:15:30Z,access_revoked,SYSTEM_PAM,USR-1006,APP-DEV-STAGING,Automated expiration of break-glass credential after 4-hour window,10.14.1.2,Success,False
+EVT-2026-8007,2026-09-14T23:00:12Z,service_account_login,SVC-3002,SVC-3002,APP-FIN,Automated batch ledger sync executed by unowned service daemon,10.14.5.88,Success,True
+EVT-2026-8008,2026-09-18T10:45:19Z,user_login,USR-1014,USR-1014,APP-FIN,Interactive web login by terminated employee Marcus Vance,198.51.100.42,Success,True
+EVT-2026-8009,2026-09-20T08:30:00Z,access_review_decision,Karen Patel,USR-1001,APP-HR,Quarterly UAR decision: APPROVE for Sarah Jenkins,10.14.3.25,Success,False
+EVT-2026-8010,2026-09-21T11:20:44Z,access_review_decision,Marcus Reid,USR-1008,APP-FIN,Quarterly UAR decision: REVOKE legacy finance access for Elena Rostova,10.14.3.40,Success,False
+EVT-2026-8011,2026-09-21T16:00:12Z,access_revoked,adm_tbradley,USR-1008,APP-FIN,Revoked legacy ROLE-FIN-ANALYST in remediation of REV-2026-010,10.14.2.110,Success,False
+EVT-2026-8012,2026-09-22T14:10:05Z,user_login,CTR-2002,CTR-2002,APP-DEV,Interactive repository login by expired contractor Liam Gallagher,203.0.113.89,Success,True
+EVT-2026-8013,2026-09-24T09:00:22Z,privileged_access_requested,adm_radams,USR-1004,APP-IDP,Submitted request REQ-2026-1006 for permanent standing Global Admin,10.14.2.55,Success,True
+EVT-2026-8014,2026-09-25T15:30:10Z,failed_authentication,UNKNOWN,adm_radams,APP-IDP,Multiple failed console authentication attempts against privileged account,198.51.100.77,Failure,True
+EVT-2026-8015,2026-09-27T08:00:00Z,user_login,USR-1003,USR-1003,APP-FIN,Routine manager dashboard login by David Chen,10.14.2.14,Success,False

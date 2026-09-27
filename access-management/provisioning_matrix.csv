@@ -1,0 +1,16 @@
+role_id,role_name,application_id,application_name,permission_level,approval_requirement,fulfillment_mechanism,sod_check_required
+ROLE-FIN-ANALYST,Financial Analyst,APP-FIN,Northstar Financial Ledger,Read_Write,Finance Manager,Manual Service Desk,True
+ROLE-FIN-MANAGER,Finance Operations Manager,APP-FIN,Northstar Financial Ledger,Read_Write_Reports,Finance Director,Manual Service Desk,True
+ROLE-FIN-INITIATOR,Payment Initiator,APP-FIN,Northstar Financial Ledger (Wire Module),Execute_Create,Finance Director + SecOps,Manual Service Desk (Dual Admin),True
+ROLE-FIN-APPROVER,Payment Approver,APP-FIN,Northstar Financial Ledger (Wire Module),Authorize_Release,Finance Director + CISO,Manual Service Desk (Dual Admin),True
+ROLE-DEV-ENGINEER,Software Developer,APP-DEV,DevCloud Engineering Suite,Read_Write_Branch,Engineering Director,Automated SCIM / GitHub SSO,False
+ROLE-DEV-MANAGER,Engineering Director,APP-DEV,DevCloud Engineering Suite,Admin_Merge,VP Technology,Automated SCIM / GitHub SSO,False
+ROLE-DEV-CONTRACTOR,Engineering Contractor,APP-DEV,DevCloud Engineering Suite,Restricted_Read_Write,Sponsor Manager + SecOps,Automated SCIM with Expiry,False
+ROLE-HR-SPECIALIST,HR Specialist,APP-HR,PeopleCore HRIS,Read_Write_Personnel,HR Director,Manual Service Desk,True
+ROLE-OPS-SPECIALIST,Operations Specialist,APP-OPS,ClientPulse Operations CRM,Read_Write_Cases,Operations Manager,Automated SCIM,True
+ROLE-OPS-MANAGER,Operations Manager,APP-OPS,ClientPulse Operations CRM,Read_Write_Reports,Operations Director,Automated SCIM,False
+ROLE-IT-ADMIN,IT Support Admin,APP-IDP,Northstar Identity Hub,Privileged_Provisioner,IT Lead + SecOps,Manual Dual Custody,True
+ROLE-IT-GLOBALADMIN,Domain / Global Administrator,APP-IDP,Northstar Identity Hub,Privileged_SuperAdmin,CISO Approval Required,PAM Vault Checkout (JIT),True
+ROLE-SEC-ADMIN,Security Administrator,APP-IDP,Northstar Identity Hub,Read_Audit_Governance,CISO Approval Required,PAM Vault Checkout,False
+ROLE-SVC-BACKUP,Automated Backup Daemon,INFRA-STORAGE,Infrastructure Storage,System_Snapshot_Admin,Cloud Lead,Automated Secret Manager Rotation,False
+ROLE-SVC-ETL,Batch Reconciliation Daemon,APP-FIN,Northstar Financial Ledger,System_Direct_Batch,Finance Business Owner,Static Service Credential (Managed),False

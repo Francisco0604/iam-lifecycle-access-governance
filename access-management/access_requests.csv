@@ -1,0 +1,7 @@
+request_id,requester,target_identity,application,requested_role,business_justification,risk_level,approver,approval_status,request_date,fulfillment_status,fulfillment_date
+REQ-2026-1001,David Chen,USR-1002,APP-FIN,ROLE-FIN-ANALYST,Quarterly financial model preparation,Low,Elena Vasquez,Approved,2026-06-01,Fulfilled,2026-06-02
+REQ-2026-1002,David Chen,USR-1003,APP-FIN,ROLE-FIN-INITIATOR,Urgent backup coverage for wire initiation batches,High,Elena Vasquez,Approved,2026-07-10,Fulfilled,2026-07-11
+REQ-2026-1003,Maya Lin,USR-1006,APP-DEV,ROLE-DEV-ENGINEER,Access to payments core microservice repository,Medium,Maya Lin,Approved,2026-08-05,Fulfilled,2026-08-05
+REQ-2026-1004,Marcus Reid,USR-1008,APP-OPS,ROLE-OPS-SPECIALIST,Transfer onboarding access for client operations,Low,Marcus Reid,Approved,2026-07-02,Fulfilled,2026-07-03
+REQ-2026-1005,Liam Gallagher,CTR-2002,APP-FIN,ROLE-FIN-ANALYST,Need ledger tables for integration pipeline debugging,High,Elena Vasquez,Rejected,2026-08-10,Not_Fulfilled,
+REQ-2026-1006,Rachel Adams,USR-1004,APP-IDP,ROLE-IT-GLOBALADMIN,Permanent standing Domain Admin elevation for weekend shift,Critical,Alex Wong,Pending_Security_Review,2026-09-24,Unfulfilled,

@@ -1,0 +1,5 @@
+event_id,identity_id,name,department,employment_type,termination_date,hr_ticket,it_ticket,account_disabled_date,access_revocation_status,defect_flag,notes
+LVR-2026-001,USR-1013,Robert Hayes,Engineering,Employee,2026-07-31,HR-OFF-882,IT-TKT-9104,2026-07-31,Completed,False,Clean departure; accounts disabled same-day
+LVR-2026-002,USR-1014,Marcus Vance,Finance,Employee,2026-08-15,HR-OFF-914,IT-TKT-9420,None,Pending_Failed,True,HR ticket closed without IT confirmation; account remained active in APP-FIN and user logged in on 2026-09-18 (Finding IAM-01)
+LVR-2026-003,CTR-2002,Liam Gallagher,Engineering,Contractor,2026-08-31,HR-CTR-402,IT-TKT-9610,None,Not_Initiated,True,Contract expired 2026-08-31; no offboarding ticket dispatched; account remained active and logged in on 2026-09-22 (Finding IAM-06)
+LVR-2026-004,CTR-2003,Chloe Bennett,HR,Contractor,2026-06-30,HR-CTR-380,IT-TKT-8850,2026-06-30,Completed,False,Clean contractor offboarding upon contract expiration

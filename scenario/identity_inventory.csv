@@ -1,0 +1,21 @@
+identity_id,name,identity_type,department,job_title,manager,employment_status,start_date,end_date,role,privileged,last_login,account_status,business_owner,service_account_owner
+USR-1001,Sarah Jenkins,Employee,HR,HR Specialist,Karen Patel,Active,2023-01-15,,ROLE-HR-SPECIALIST,False,2026-09-26,Active,Karen Patel,N/A
+USR-1002,Michael Torres,Employee,Finance,Senior Financial Analyst,David Chen,Active,2022-06-01,,ROLE-FIN-ANALYST,False,2026-09-27,Active,David Chen,N/A
+USR-1003,David Chen,Employee,Finance,Finance Operations Manager,Elena Vasquez,Active,2021-03-15,,ROLE-FIN-MANAGER,False,2026-09-27,Active,Elena Vasquez,N/A
+USR-1004,Tom Bradley,Employee,IT/Security,IT Support Supervisor,Rachel Adams,Active,2022-09-01,,ROLE-IT-ADMIN,True,2026-09-27,Active,Rachel Adams,N/A
+USR-1005,Rachel Adams,Employee,IT/Security,Lead Systems Engineer,Alex Wong,Active,2020-04-10,,ROLE-IT-GLOBALADMIN,True,2026-09-26,Active,Alex Wong,N/A
+USR-1006,James Wilson,Employee,Engineering,Senior Backend Developer,Maya Lin,Active,2023-08-01,,ROLE-DEV-ENGINEER,False,2026-09-27,Active,Maya Lin,N/A
+USR-1007,Maya Lin,Employee,Engineering,Engineering Director,Alex Wong,Active,2021-01-10,,ROLE-DEV-MANAGER,False,2026-09-25,Active,Alex Wong,N/A
+USR-1008,Elena Rostova,Employee,Customer Operations,Operations Specialist,Marcus Reid,Active,2023-04-01,,ROLE-OPS-SPECIALIST,False,2026-09-26,Active,Marcus Reid,N/A
+USR-1009,Marcus Reid,Employee,Customer Operations,Customer Operations Manager,Elena Vasquez,Active,2022-02-15,,ROLE-OPS-MANAGER,False,2026-09-26,Active,Elena Vasquez,N/A
+USR-1010,Priya Sharma,Employee,Engineering,Frontend Developer,Maya Lin,Active,2024-02-01,,ROLE-DEV-ENGINEER,False,2026-09-27,Active,Maya Lin,N/A
+USR-1011,Sophia Martinez,Employee,Customer Operations,Operations Associate,Marcus Reid,Extended Leave,2023-10-15,,ROLE-OPS-ASSOCIATE,False,2026-05-10,Active,Marcus Reid,N/A
+USR-1012,Alex Wong,Employee,IT/Security,Chief Information Security Officer,Board of Directors,Active,2019-11-01,,ROLE-SEC-ADMIN,True,2026-09-27,Active,Board of Directors,N/A
+USR-1013,Robert Hayes,Employee,Engineering,QA Automation Engineer,Maya Lin,Terminated,2023-03-01,2026-07-31,ROLE-DEV-ENGINEER,False,2026-07-30,Disabled,Maya Lin,N/A
+USR-1014,Marcus Vance,Employee,Finance,Financial Reporting Analyst,David Chen,Terminated,2022-11-15,2026-08-15,ROLE-FIN-ANALYST,False,2026-09-18,Active,David Chen,N/A
+CTR-2001,Ananya Roy,Contractor,Engineering,DevOps Specialist,Rachel Adams,Active,2026-05-01,2026-11-30,ROLE-DEV-CONTRACTOR,False,2026-09-26,Active,Rachel Adams,N/A
+CTR-2002,Liam Gallagher,Contractor,Engineering,Data Integration Contractor,Maya Lin,Expired Contract,2026-02-01,2026-08-31,ROLE-DEV-CONTRACTOR,False,2026-09-22,Active,Maya Lin,N/A
+CTR-2003,Chloe Bennett,Contractor,HR,Recruiting Contractor,Karen Patel,Terminated,2026-01-15,2026-06-30,ROLE-HR-CONTRACTOR,False,2026-06-29,Disabled,Karen Patel,N/A
+SVC-3001,svc_backup_automation,Service Account,IT/Security,Automated Backup Service,N/A,Active,2022-01-01,,ROLE-SVC-BACKUP,True,2026-09-27,Active,Rachel Adams,Rachel Adams
+SVC-3002,svc_legacy_etl_sync,Service Account,Finance,Batch Reconciliation Daemon,N/A,Active,2021-08-15,,ROLE-SVC-ETL,False,2026-09-14,Active,None,None
+SVC-3003,svc_decom_reporting,Service Account,Customer Operations,Deprecated Reporting Collector,N/A,Terminated,2020-05-01,2026-03-31,ROLE-SVC-REPORTING,False,2026-03-28,Disabled,Marcus Reid,Tom Bradley

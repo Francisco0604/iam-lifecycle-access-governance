@@ -1,0 +1,21 @@
+review_id,identity_id,name,application,role_held,privilege_level,manager,business_justification,last_review_date,reviewer,decision,remediation_required,remediation_status
+REV-2026-001,USR-1001,Sarah Jenkins,APP-HR,ROLE-HR-SPECIALIST,Standard,Karen Patel,Active HR operational support and onboarding,2026-09-20,Karen Patel,APPROVE,None,Closed
+REV-2026-002,USR-1002,Michael Torres,APP-FIN,ROLE-FIN-ANALYST,Standard,David Chen,Active financial reporting analyst duties,2026-09-20,David Chen,APPROVE,None,Closed
+REV-2026-003,USR-1003,David Chen,APP-FIN,ROLE-FIN-MANAGER,Standard,Elena Vasquez,Finance operations team oversight and review,2026-09-20,Elena Vasquez,APPROVE,None,Closed
+REV-2026-004,USR-1003,David Chen,APP-FIN,ROLE-FIN-INITIATOR,Sensitive,Elena Vasquez,Wire batch creation capability,2026-09-20,Elena Vasquez,MODIFY,SoD Conflict: User also possesses wire approval rights; revoke INITIATOR role,In_Progress
+REV-2026-005,USR-1004,Tom Bradley,APP-IDP,ROLE-IT-ADMIN,Privileged,Rachel Adams,IT Support ticket fulfillment and provisioning,2026-09-21,Rachel Adams,APPROVE,None,Closed
+REV-2026-006,USR-1005,Rachel Adams,APP-IDP,ROLE-IT-GLOBALADMIN,Privileged,Alex Wong,Infrastructure engineering and systems management,2026-09-21,Alex Wong,ESCALATE,Excessive standing admin access; migrate to JIT elevation via PAM vault,Open
+REV-2026-007,USR-1006,James Wilson,APP-DEV,ROLE-DEV-ENGINEER,Standard,Maya Lin,Backend payments microservice development,2026-09-20,Maya Lin,APPROVE,None,Closed
+REV-2026-008,USR-1007,Maya Lin,APP-DEV,ROLE-DEV-MANAGER,Standard,Alex Wong,Engineering leadership and code review oversight,2026-09-20,Alex Wong,APPROVE,None,Closed
+REV-2026-009,USR-1008,Elena Rostova,APP-OPS,ROLE-OPS-SPECIALIST,Standard,Marcus Reid,Customer operations loan case processing,2026-09-21,Marcus Reid,APPROVE,None,Closed
+REV-2026-010,USR-1008,Elena Rostova,APP-FIN,ROLE-FIN-ANALYST,Standard,Marcus Reid,Legacy finance role retained after department transfer,2026-09-21,Marcus Reid,REVOKE,Mover Defect: User transferred to Operations on 2026-07-01; immediately revoke APP-FIN access,Closed_Remediated
+REV-2026-011,USR-1009,Marcus Reid,APP-OPS,ROLE-OPS-MANAGER,Standard,Elena Vasquez,Customer operations team leadership,2026-09-21,Elena Vasquez,APPROVE,None,Closed
+REV-2026-012,USR-1010,Priya Sharma,APP-DEV,ROLE-DEV-ENGINEER,Standard,Maya Lin,Frontend UI portal development,2026-09-20,Maya Lin,APPROVE,None,Closed
+REV-2026-013,USR-1011,Sophia Martinez,APP-OPS,ROLE-OPS-ASSOCIATE,Standard,Marcus Reid,Extended medical leave; inactive over 90 days,2026-09-21,Marcus Reid,MODIFY,Dormant Account: Temporarily suspend access until formal return-to-work notice,Closed_Remediated
+REV-2026-014,USR-1012,Alex Wong,APP-IDP,ROLE-SEC-ADMIN,Privileged,Board of Directors,CISO security governance and audit oversight,2026-09-21,Board of Directors,APPROVE,None,Closed
+REV-2026-015,USR-1013,Robert Hayes,APP-DEV,ROLE-DEV-ENGINEER,Standard,Maya Lin,Terminated employee verification,2026-09-20,Maya Lin,APPROVE,Access verified disabled on 2026-07-31,Closed
+REV-2026-016,USR-1014,Marcus Vance,APP-FIN,ROLE-FIN-ANALYST,Standard,David Chen,Terminated employee retaining active account,2026-09-20,David Chen,REVOKE,CRITICAL DEFECT: Employee terminated on 2026-08-15; disable account and revoke all access immediately,In_Progress
+REV-2026-017,CTR-2001,Ananya Roy,APP-DEV,ROLE-DEV-CONTRACTOR,Standard,Rachel Adams,Active DevOps engineering contract through 2026-11-30,2026-09-21,Rachel Adams,APPROVE,None,Closed
+REV-2026-018,CTR-2002,Liam Gallagher,APP-DEV,ROLE-DEV-CONTRACTOR,Standard,Maya Lin,Contract expired on 2026-08-31,2026-09-20,Maya Lin,REVOKE,Contractor Defect: Contract expired 2026-08-31; revoke access and disable identity,Closed_Remediated
+REV-2026-019,SVC-3001,svc_backup_automation,INFRA-STORAGE,ROLE-SVC-BACKUP,Privileged,Rachel Adams,Nightly automated infrastructure snapshots,2026-09-21,Rachel Adams,APPROVE,None,Closed
+REV-2026-020,SVC-3002,svc_legacy_etl_sync,APP-FIN,ROLE-SVC-ETL,Standard,None,No business or technical owner assigned,2026-09-21,Tom Bradley,ESCALATE,Unowned Service Account: Identify application dependency; assign owner or decommission,Open
